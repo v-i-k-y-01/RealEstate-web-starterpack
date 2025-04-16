@@ -1,12 +1,8 @@
-import { header } from "./components/header/header";
-
+import React from 'react';
+import { Header } from './components/header/header.jsx';
 function App() {
   return (
-    <>
-
-    <header />
-    
-    </>
+    <Header />
   );
 }
 
